@@ -1,0 +1,13 @@
+D:\App\Collections Ext methods\Boxing vs Unboxing\bin\Debug\Boxing vs Unboxing.exe.config
+D:\App\Collections Ext methods\Boxing vs Unboxing\bin\Debug\Boxing vs Unboxing.exe
+D:\App\Collections Ext methods\Boxing vs Unboxing\bin\Debug\Boxing vs Unboxing.pdb
+D:\App\Collections Ext methods\Boxing vs Unboxing\obj\Debug\Boxing vs Unboxing.csproj.CoreCompileInputs.cache
+D:\App\Collections Ext methods\Boxing vs Unboxing\obj\Debug\Boxing vs Unboxing.exe
+D:\App\Collections Ext methods\Boxing vs Unboxing\obj\Debug\Boxing vs Unboxing.pdb
+D:\App\Junior Technical\Boxing vs Unboxing\bin\Debug\Boxing vs Unboxing.exe.config
+D:\App\Junior Technical\Boxing vs Unboxing\bin\Debug\Boxing vs Unboxing.exe
+D:\App\Junior Technical\Boxing vs Unboxing\bin\Debug\Boxing vs Unboxing.pdb
+D:\App\Junior Technical\Boxing vs Unboxing\obj\Debug\Boxing vs Unboxing.csprojAssemblyReference.cache
+D:\App\Junior Technical\Boxing vs Unboxing\obj\Debug\Boxing vs Unboxing.csproj.CoreCompileInputs.cache
+D:\App\Junior Technical\Boxing vs Unboxing\obj\Debug\Boxing vs Unboxing.exe
+D:\App\Junior Technical\Boxing vs Unboxing\obj\Debug\Boxing vs Unboxing.pdb

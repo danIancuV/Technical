@@ -1,0 +1,24 @@
+D:\App\Collections Ext methods\Collections\bin\Debug\Collections.exe.config
+D:\App\Collections Ext methods\Collections\bin\Debug\Collections.exe
+D:\App\Collections Ext methods\Collections\bin\Debug\Collections.pdb
+D:\App\Collections Ext methods\Collections\bin\Debug\EntityFramework.dll
+D:\App\Collections Ext methods\Collections\bin\Debug\EntityFramework.SqlServer.dll
+D:\App\Collections Ext methods\Collections\bin\Debug\EntityFramework.xml
+D:\App\Collections Ext methods\Collections\bin\Debug\EntityFramework.SqlServer.xml
+D:\App\Collections Ext methods\Collections\obj\Debug\IEnumerable vs IList Yield return.csproj.CoreCompileInputs.cache
+D:\App\Collections Ext methods\Collections\obj\Debug\IEnumerable vs IList Yield return.csproj.CopyComplete
+D:\App\Collections Ext methods\Collections\obj\Debug\Collections.exe
+D:\App\Collections Ext methods\Collections\obj\Debug\Collections.pdb
+D:\App\Collections Ext methods\Collections\obj\Debug\IEnumerable vs IList Yield return.csprojAssemblyReference.cache
+D:\App\Junior Technical\Collections\bin\Debug\Collections.exe.config
+D:\App\Junior Technical\Collections\bin\Debug\Collections.exe
+D:\App\Junior Technical\Collections\bin\Debug\Collections.pdb
+D:\App\Junior Technical\Collections\bin\Debug\EntityFramework.dll
+D:\App\Junior Technical\Collections\bin\Debug\EntityFramework.SqlServer.dll
+D:\App\Junior Technical\Collections\bin\Debug\EntityFramework.xml
+D:\App\Junior Technical\Collections\bin\Debug\EntityFramework.SqlServer.xml
+D:\App\Junior Technical\Collections\obj\Debug\IEnumerable vs IList Yield return.csprojAssemblyReference.cache
+D:\App\Junior Technical\Collections\obj\Debug\IEnumerable vs IList Yield return.csproj.CoreCompileInputs.cache
+D:\App\Junior Technical\Collections\obj\Debug\IEnumerable vs IList Yield return.csproj.CopyComplete
+D:\App\Junior Technical\Collections\obj\Debug\Collections.exe
+D:\App\Junior Technical\Collections\obj\Debug\Collections.pdb

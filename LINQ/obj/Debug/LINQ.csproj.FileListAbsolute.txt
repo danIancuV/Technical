@@ -1,0 +1,30 @@
+D:\App\Collections Ext methods\LINQ\bin\Debug\LINQ.exe.config
+D:\App\Collections Ext methods\LINQ\bin\Debug\LINQ.exe
+D:\App\Collections Ext methods\LINQ\bin\Debug\LINQ.pdb
+D:\App\Collections Ext methods\LINQ\bin\Debug\Collections.exe
+D:\App\Collections Ext methods\LINQ\bin\Debug\EntityFramework.dll
+D:\App\Collections Ext methods\LINQ\bin\Debug\EntityFramework.SqlServer.dll
+D:\App\Collections Ext methods\LINQ\bin\Debug\Collections.pdb
+D:\App\Collections Ext methods\LINQ\bin\Debug\Collections.exe.config
+D:\App\Collections Ext methods\LINQ\bin\Debug\EntityFramework.xml
+D:\App\Collections Ext methods\LINQ\bin\Debug\EntityFramework.SqlServer.xml
+D:\App\Collections Ext methods\LINQ\obj\Debug\LINQ.csprojAssemblyReference.cache
+D:\App\Collections Ext methods\LINQ\obj\Debug\LINQ.csproj.CoreCompileInputs.cache
+D:\App\Collections Ext methods\LINQ\obj\Debug\LINQ.csproj.CopyComplete
+D:\App\Collections Ext methods\LINQ\obj\Debug\LINQ.exe
+D:\App\Collections Ext methods\LINQ\obj\Debug\LINQ.pdb
+D:\App\Junior Technical\LINQ\bin\Debug\LINQ.exe.config
+D:\App\Junior Technical\LINQ\bin\Debug\LINQ.exe
+D:\App\Junior Technical\LINQ\bin\Debug\LINQ.pdb
+D:\App\Junior Technical\LINQ\bin\Debug\Collections.exe
+D:\App\Junior Technical\LINQ\bin\Debug\EntityFramework.dll
+D:\App\Junior Technical\LINQ\bin\Debug\EntityFramework.SqlServer.dll
+D:\App\Junior Technical\LINQ\bin\Debug\Collections.pdb
+D:\App\Junior Technical\LINQ\bin\Debug\Collections.exe.config
+D:\App\Junior Technical\LINQ\bin\Debug\EntityFramework.xml
+D:\App\Junior Technical\LINQ\bin\Debug\EntityFramework.SqlServer.xml
+D:\App\Junior Technical\LINQ\obj\Debug\LINQ.csprojAssemblyReference.cache
+D:\App\Junior Technical\LINQ\obj\Debug\LINQ.csproj.CoreCompileInputs.cache
+D:\App\Junior Technical\LINQ\obj\Debug\LINQ.csproj.CopyComplete
+D:\App\Junior Technical\LINQ\obj\Debug\LINQ.exe
+D:\App\Junior Technical\LINQ\obj\Debug\LINQ.pdb

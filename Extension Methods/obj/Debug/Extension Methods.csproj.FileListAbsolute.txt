@@ -1,0 +1,7 @@
+D:\App\Collections Ext methods\Extension Methods\bin\Debug\Extension Methods.exe.config
+D:\App\Collections Ext methods\Extension Methods\bin\Debug\Extension Methods.exe
+D:\App\Collections Ext methods\Extension Methods\bin\Debug\Extension Methods.pdb
+D:\App\Collections Ext methods\Extension Methods\obj\Debug\Extension Methods.csprojAssemblyReference.cache
+D:\App\Collections Ext methods\Extension Methods\obj\Debug\Extension Methods.csproj.CoreCompileInputs.cache
+D:\App\Collections Ext methods\Extension Methods\obj\Debug\Extension Methods.exe
+D:\App\Collections Ext methods\Extension Methods\obj\Debug\Extension Methods.pdb

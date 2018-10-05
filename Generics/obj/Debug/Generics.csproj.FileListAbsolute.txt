@@ -1,0 +1,7 @@
+D:\App\Collections Ext methods\Generics\bin\Debug\Generics.exe.config
+D:\App\Collections Ext methods\Generics\bin\Debug\Generics.exe
+D:\App\Collections Ext methods\Generics\bin\Debug\Generics.pdb
+D:\App\Collections Ext methods\Generics\obj\Debug\Generics.csprojAssemblyReference.cache
+D:\App\Collections Ext methods\Generics\obj\Debug\Generics.csproj.CoreCompileInputs.cache
+D:\App\Collections Ext methods\Generics\obj\Debug\Generics.exe
+D:\App\Collections Ext methods\Generics\obj\Debug\Generics.pdb
