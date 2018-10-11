@@ -1,0 +1,10 @@
+D:\App\Junior Technical\Tuple\bin\Debug\Tuple.exe.config
+D:\App\Junior Technical\Tuple\bin\Debug\Tuple.exe
+D:\App\Junior Technical\Tuple\bin\Debug\Tuple.pdb
+D:\App\Junior Technical\Tuple\bin\Debug\System.ValueTuple.dll
+D:\App\Junior Technical\Tuple\bin\Debug\System.ValueTuple.xml
+D:\App\Junior Technical\Tuple\obj\Debug\Tuple.csprojAssemblyReference.cache
+D:\App\Junior Technical\Tuple\obj\Debug\Tuple.csproj.CoreCompileInputs.cache
+D:\App\Junior Technical\Tuple\obj\Debug\Tuple.csproj.CopyComplete
+D:\App\Junior Technical\Tuple\obj\Debug\Tuple.exe
+D:\App\Junior Technical\Tuple\obj\Debug\Tuple.pdb

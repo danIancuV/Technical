@@ -15,6 +15,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Boxing vs Unboxing", "Boxin
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generics", "Generics\Generics.csproj", "{5B4482B1-4637-418D-9B50-7607BAE558F2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tuple", "Tuple\Tuple.csproj", "{EC47CDA8-23CE-4E4B-ACC4-2E7048DC97E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Explicit interface implementation", "Explicit interface implementation\Explicit interface implementation.csproj", "{76842E77-B7B8-4F15-99BA-7B7B847335B3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +49,14 @@ Global
 		{5B4482B1-4637-418D-9B50-7607BAE558F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5B4482B1-4637-418D-9B50-7607BAE558F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5B4482B1-4637-418D-9B50-7607BAE558F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC47CDA8-23CE-4E4B-ACC4-2E7048DC97E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC47CDA8-23CE-4E4B-ACC4-2E7048DC97E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC47CDA8-23CE-4E4B-ACC4-2E7048DC97E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC47CDA8-23CE-4E4B-ACC4-2E7048DC97E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76842E77-B7B8-4F15-99BA-7B7B847335B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76842E77-B7B8-4F15-99BA-7B7B847335B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76842E77-B7B8-4F15-99BA-7B7B847335B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76842E77-B7B8-4F15-99BA-7B7B847335B3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

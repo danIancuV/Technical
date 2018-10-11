@@ -1,0 +1,7 @@
+D:\App\Junior Technical\Explicit interface implementation\bin\Debug\Explicit interface implementation.exe.config
+D:\App\Junior Technical\Explicit interface implementation\bin\Debug\Explicit interface implementation.exe
+D:\App\Junior Technical\Explicit interface implementation\bin\Debug\Explicit interface implementation.pdb
+D:\App\Junior Technical\Explicit interface implementation\obj\Debug\Explicit interface implementation.csprojAssemblyReference.cache
+D:\App\Junior Technical\Explicit interface implementation\obj\Debug\Explicit interface implementation.csproj.CoreCompileInputs.cache
+D:\App\Junior Technical\Explicit interface implementation\obj\Debug\Explicit interface implementation.exe
+D:\App\Junior Technical\Explicit interface implementation\obj\Debug\Explicit interface implementation.pdb

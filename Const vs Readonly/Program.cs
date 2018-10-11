@@ -4,7 +4,7 @@ namespace Const_vs_Readonly
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             var varr = new Variables();
             Console.WriteLine("Values are: {0}, {1}, {2}", Variables.Co, varr.Re, Variables.StRe ); 
