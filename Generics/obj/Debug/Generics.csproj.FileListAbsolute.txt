@@ -5,3 +5,10 @@ D:\App\Collections Ext methods\Generics\obj\Debug\Generics.csprojAssemblyReferen
 D:\App\Collections Ext methods\Generics\obj\Debug\Generics.csproj.CoreCompileInputs.cache
 D:\App\Collections Ext methods\Generics\obj\Debug\Generics.exe
 D:\App\Collections Ext methods\Generics\obj\Debug\Generics.pdb
+D:\App\Junior Technical\Generics\bin\Debug\Generics.exe.config
+D:\App\Junior Technical\Generics\bin\Debug\Generics.exe
+D:\App\Junior Technical\Generics\bin\Debug\Generics.pdb
+D:\App\Junior Technical\Generics\obj\Debug\Generics.csprojAssemblyReference.cache
+D:\App\Junior Technical\Generics\obj\Debug\Generics.csproj.CoreCompileInputs.cache
+D:\App\Junior Technical\Generics\obj\Debug\Generics.exe
+D:\App\Junior Technical\Generics\obj\Debug\Generics.pdb

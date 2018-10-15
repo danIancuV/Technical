@@ -1,0 +1,7 @@
+D:\App\Junior Technical\AsyncAwait\bin\Debug\AsyncAwait.exe.config
+D:\App\Junior Technical\AsyncAwait\bin\Debug\AsyncAwait.exe
+D:\App\Junior Technical\AsyncAwait\bin\Debug\AsyncAwait.pdb
+D:\App\Junior Technical\AsyncAwait\obj\Debug\AsyncAwait.csprojAssemblyReference.cache
+D:\App\Junior Technical\AsyncAwait\obj\Debug\AsyncAwait.csproj.CoreCompileInputs.cache
+D:\App\Junior Technical\AsyncAwait\obj\Debug\AsyncAwait.exe
+D:\App\Junior Technical\AsyncAwait\obj\Debug\AsyncAwait.pdb

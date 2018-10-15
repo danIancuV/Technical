@@ -1,0 +1,7 @@
+D:\App\Junior Technical\Expression bodied members\bin\Debug\Expression bodied members.exe.config
+D:\App\Junior Technical\Expression bodied members\bin\Debug\Expression bodied members.exe
+D:\App\Junior Technical\Expression bodied members\bin\Debug\Expression bodied members.pdb
+D:\App\Junior Technical\Expression bodied members\obj\Debug\Expression bodied members.csprojAssemblyReference.cache
+D:\App\Junior Technical\Expression bodied members\obj\Debug\Expression bodied members.csproj.CoreCompileInputs.cache
+D:\App\Junior Technical\Expression bodied members\obj\Debug\Expression bodied members.exe
+D:\App\Junior Technical\Expression bodied members\obj\Debug\Expression bodied members.pdb

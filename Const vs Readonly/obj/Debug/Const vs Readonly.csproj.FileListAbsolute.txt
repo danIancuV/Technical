@@ -5,3 +5,10 @@ D:\App\Collections Ext methods\Const vs Readonly\bin\Debug\Const vs Readonly.exe
 D:\App\Collections Ext methods\Const vs Readonly\bin\Debug\Const vs Readonly.pdb
 D:\App\Collections Ext methods\Const vs Readonly\obj\Debug\Const vs Readonly.exe
 D:\App\Collections Ext methods\Const vs Readonly\obj\Debug\Const vs Readonly.pdb
+D:\App\Junior Technical\Const vs Readonly\bin\Debug\Const vs Readonly.exe.config
+D:\App\Junior Technical\Const vs Readonly\bin\Debug\Const vs Readonly.exe
+D:\App\Junior Technical\Const vs Readonly\bin\Debug\Const vs Readonly.pdb
+D:\App\Junior Technical\Const vs Readonly\obj\Debug\Const vs Readonly.csprojAssemblyReference.cache
+D:\App\Junior Technical\Const vs Readonly\obj\Debug\Const vs Readonly.csproj.CoreCompileInputs.cache
+D:\App\Junior Technical\Const vs Readonly\obj\Debug\Const vs Readonly.exe
+D:\App\Junior Technical\Const vs Readonly\obj\Debug\Const vs Readonly.pdb
