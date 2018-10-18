@@ -1,10 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Linq;
-using System.Text;
 using System.Threading;
-using System.Threading.Tasks;
 
 namespace AsyncAwait
 {
@@ -12,32 +7,62 @@ namespace AsyncAwait
     {
         static void Main(string[] args)
         {
-            Console.WriteLine($"Starting worker, {Thread.CurrentThread.ManagedThreadId}");
+            //Console.WriteLine($"Starting worker, {Thread.CurrentThread.ManagedThreadId}");
 
-            var worker = new Worker();
-            worker.DoWork();
+            //var worker = new Worker();
+            //worker.DoWork();
 
-            while (!worker.IsComplete)
-            {
-                Console.Write($"., {Thread.CurrentThread.ManagedThreadId}");
-                Thread.Sleep(1000);
-            }
+            //while (!worker.IsComplete)
+            //{
+            //    Console.Write($"., {Thread.CurrentThread.ManagedThreadId}");
+            //    Thread.Sleep(1000);
+            //}
 
-            Console.WriteLine("Done");
-            Console.ReadKey();
+            //Console.WriteLine($"Done, {Thread.CurrentThread.ManagedThreadId}");
+            //Thread.Sleep(2000);
 
-            Console.WriteLine($"Starting syncasyncwork, {Thread.CurrentThread.ManagedThreadId}");
+            //--------------------------------
 
-            var syncasyncworker = new SyncAsyncWork();
-            syncasyncworker.DoSyncWork();           
-           
-            var rezult = syncasyncworker.DoAsyncWork();
+            var asyncarray = new Asyncarray();
 
-       
-            Console.WriteLine(rezult.Result);
-            Console.WriteLine($"{Thread.CurrentThread.ManagedThreadId}");
-            
-           
+            int[] myarr = new int[] { 1, 2, 3, 4, 5, 6, 9, 10, 8 };
+            Console.WriteLine("Sum of array elements is:{0}", asyncarray.SumCalculation(myarr));
+            Console.WriteLine($"Done, {Thread.CurrentThread.ManagedThreadId}");
+
+            Thread.Sleep(2000);
+
+            //----------------------------------
+
+            //var asyncarrayrefactored = new Asyncarrayrefactored();
+
+            //int[] myarr = { 1, 2, 3, 4, 5, 6, 9, 10, 8 };
+            //Console.WriteLine("Sum of array elements is:{0}", asyncarrayrefactored.SumCalculation(myarr));
+            //Console.WriteLine($"Done, {Thread.CurrentThread.ManagedThreadId}");
+
+            //Thread.Sleep(2000);
+
+
+            //----------------------------------
+
+            //Console.WriteLine($"Starting syncasyncwork, {Thread.CurrentThread.ManagedThreadId}");
+
+            //var syncasyncworker = new SyncAsyncWork();
+            //syncasyncworker.DoSyncWork();
+            //var rezult = syncasyncworker.DoAsyncWork();
+
+            //while (!syncasyncworker.IsCompleted)
+            //{
+            //    Console.WriteLine($"Working....., { Thread.CurrentThread.ManagedThreadId}");
+            //    Thread.Sleep(1000);
+            //}
+
+            //Console.WriteLine(rezult.Result);
+
+            //Console.WriteLine($"EXIT, {Thread.CurrentThread.ManagedThreadId}");
+
+            //---------------------------------------------------------
+
+
         }
     }
 }

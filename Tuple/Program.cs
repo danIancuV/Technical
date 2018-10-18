@@ -10,12 +10,12 @@ namespace Tuple
     {
         static void Main(string[] args)
         {
-            var empDetail = GetEmployees();
-            Console.WriteLine("The values are: {0}, {1}, {2}", empDetail.n, empDetail.nk, empDetail.emp.height);
+            (string fullname, string mynickname, Emp myemployee) empDetail = GetEmployees();
+            Console.WriteLine("The values are: {0}, {1}, {2}", empDetail.fullname, empDetail.mynickname, empDetail.myemployee);
 
-            var tuple = GetAllEmployees();
+            Tuple<string, Emp> tuple = GetEmployee();
             Console.WriteLine("The values are: {0}, {1}", tuple.Item1, tuple.Item2.height);
-
+            //TODO: IL & ILDASM
         }
 
         public static (string n, string nk, Emp emp) GetEmployees()
@@ -26,14 +26,13 @@ namespace Tuple
             return (name, nickname, emp);
         }
 
-        public static Tuple<string, Emp> GetAllEmployees()
+        public static Tuple<string, Emp> GetEmployee()
         {
             Emp emp2 = new Emp(65, 175);
             string name2 = "Vlad";
             var tuple1 = new Tuple<string, Emp>(name2, emp2);
             return tuple1;
         }
-
     }
 
     public class Emp
