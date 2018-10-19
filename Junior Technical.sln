@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Expression bodied members",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncAwait", "AsyncAwait\AsyncAwait.csproj", "{7475A4BF-B85C-4666-9B0C-2FD058800C4D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SatelliteAssemblies", "SatelliteAssemblies\SatelliteAssemblies.csproj", "{E98F0463-155F-498B-8B61-5FA39E0DB30D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{7475A4BF-B85C-4666-9B0C-2FD058800C4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7475A4BF-B85C-4666-9B0C-2FD058800C4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7475A4BF-B85C-4666-9B0C-2FD058800C4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E98F0463-155F-498B-8B61-5FA39E0DB30D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E98F0463-155F-498B-8B61-5FA39E0DB30D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E98F0463-155F-498B-8B61-5FA39E0DB30D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E98F0463-155F-498B-8B61-5FA39E0DB30D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

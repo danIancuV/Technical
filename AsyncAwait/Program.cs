@@ -23,13 +23,13 @@ namespace AsyncAwait
 
             //--------------------------------
 
-            var asyncarray = new Asyncarray();
+            //var asyncarray = new Asyncarray();
 
-            int[] myarr = new int[] { 1, 2, 3, 4, 5, 6, 9, 10, 8 };
-            Console.WriteLine("Sum of array elements is:{0}", asyncarray.SumCalculation(myarr));
-            Console.WriteLine($"Done, {Thread.CurrentThread.ManagedThreadId}");
+            //int[] myarr = new int[] { 1, 2, 3, 4, 5, 6, 9, 10, 8 };
+            //Console.WriteLine("Sum of array elements is:{0}", asyncarray.SumCalculation(myarr));
+            //Console.WriteLine($"Done, {Thread.CurrentThread.ManagedThreadId}");
 
-            Thread.Sleep(2000);
+            //Thread.Sleep(2000);
 
             //----------------------------------
 
@@ -44,21 +44,21 @@ namespace AsyncAwait
 
             //----------------------------------
 
-            //Console.WriteLine($"Starting syncasyncwork, {Thread.CurrentThread.ManagedThreadId}");
+            Console.WriteLine($"Starting syncasyncwork, {Thread.CurrentThread.ManagedThreadId}");
 
-            //var syncasyncworker = new SyncAsyncWork();
-            //syncasyncworker.DoSyncWork();
-            //var rezult = syncasyncworker.DoAsyncWork();
+            var syncasyncworker = new SyncAsyncWork();
+            syncasyncworker.DoSyncWork();
+            var rezult = syncasyncworker.DoAsyncWork();
 
-            //while (!syncasyncworker.IsCompleted)
-            //{
-            //    Console.WriteLine($"Working....., { Thread.CurrentThread.ManagedThreadId}");
-            //    Thread.Sleep(1000);
-            //}
+            while (!syncasyncworker.IsCompleted)
+            {
+                Console.WriteLine($"Working....., { Thread.CurrentThread.ManagedThreadId}");
+                Thread.Sleep(1000);
+            }
 
-            //Console.WriteLine(rezult.Result);
+            Console.WriteLine(rezult.Result);
 
-            //Console.WriteLine($"EXIT, {Thread.CurrentThread.ManagedThreadId}");
+            Console.WriteLine($"EXIT, {Thread.CurrentThread.ManagedThreadId}");
 
             //---------------------------------------------------------
 

@@ -20,8 +20,8 @@ namespace AsyncAwait
         public async Task<string> DoAsyncWork()
         {
             IsCompleted = false;
-            Console.WriteLine($"Async task is starting, {Thread.CurrentThread.ManagedThreadId}");           
-            await Operation();
+            Console.WriteLine($"Async task is starting, {Thread.CurrentThread.ManagedThreadId}");
+            await Operation();            
             IsCompleted = true;
             return Operation().Result;
         }
