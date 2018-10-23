@@ -52,27 +52,27 @@ namespace AsyncAwait
             //********wait one by one
 
             var tasklist = new List<Task<int>> {t1, t2, t3};
-            //while (tasklist.Count > 0)
-            //{
-            //    Task<int>[] taskarray = tasklist.ToArray();
-            //    int index = Task.WaitAny(taskarray);
-            //    Console.WriteLine("Partial sum is {0}", tasklist[index].Result);
-            //    totalsum += tasklist[index].Result;
-            //    tasklist.RemoveAt(index);
-            //}
-            //return totalsum;
+            while (tasklist.Count > 0)
+            {
+                Task<int>[] taskarray = tasklist.ToArray();
+                int index = Task.WaitAny(taskarray);
+                Console.WriteLine("Partial sum is {0}", tasklist[index].Result);
+                totalsum += tasklist[index].Result;
+                tasklist.RemoveAt(index);
+            }
+            return totalsum;
 
             //************wait all
 
-            Task<int>[] taskarray = tasklist.ToArray();
-            Task.WaitAll(taskarray);
-            foreach (var task in taskarray)
-            {
-                Console.WriteLine("Partial sum is {0}", task.Result);
-                totalsum += task.Result;
-            }
+            //Task<int>[] taskarray = tasklist.ToArray();
+            //Task.WaitAll(taskarray);
+            //foreach (var task in taskarray)
+            //{
+            //    Console.WriteLine("Partial sum is {0}", task.Result);
+            //    totalsum += task.Result;
+            //}
 
-            return totalsum;
+            //return totalsum;
         }
     }
 }

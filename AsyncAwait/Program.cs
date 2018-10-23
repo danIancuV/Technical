@@ -7,31 +7,33 @@ namespace AsyncAwait
     {
         static void Main(string[] args)
         {
-            //Console.WriteLine($"Starting worker, {Thread.CurrentThread.ManagedThreadId}");
+            //---------------*********USE PROCESSING IN BKG THREAD********-----------------
 
-            //var worker = new Worker();
-            //worker.DoWork();
+            Console.WriteLine($"Starting worker, {Thread.CurrentThread.ManagedThreadId}");
 
-            //while (!worker.IsComplete)
-            //{
-            //    Console.Write($"., {Thread.CurrentThread.ManagedThreadId}");
-            //    Thread.Sleep(1000);
-            //}
+            var worker = new Worker();
+            worker.DoWork();
 
-            //Console.WriteLine($"Done, {Thread.CurrentThread.ManagedThreadId}");
-            //Thread.Sleep(2000);
+            while (!worker.IsComplete)
+            {
+                Console.Write($".");
+                Thread.Sleep(1000);
+            }
 
-            //--------------------------------
+            Console.WriteLine($"Done, {Thread.CurrentThread.ManagedThreadId}");
+            Thread.Sleep(2000);
+
+            //---------------*********WAIT ALL/////ONE-BY-ONE THREADS********----------------------------
 
             //var asyncarray = new Asyncarray();
 
-            //int[] myarr = new int[] { 1, 2, 3, 4, 5, 6, 9, 10, 8 };
+            //int[] myarr = { 1, 2, 3, 4, 5, 6, 9, 10, 8 };
             //Console.WriteLine("Sum of array elements is:{0}", asyncarray.SumCalculation(myarr));
             //Console.WriteLine($"Done, {Thread.CurrentThread.ManagedThreadId}");
 
             //Thread.Sleep(2000);
 
-            //----------------------------------
+            //-------------********WAIT ONE-BY-ONE REFACTORED*********---------------------
 
             //var asyncarrayrefactored = new Asyncarrayrefactored();
 
@@ -42,23 +44,23 @@ namespace AsyncAwait
             //Thread.Sleep(2000);
 
 
-            //----------------------------------
+            //---------------*********USE PROCESSING IN BKG THREAD----RE-MASTERED********-----------------
 
-            Console.WriteLine($"Starting syncasyncwork, {Thread.CurrentThread.ManagedThreadId}");
+            //Console.WriteLine($"Starting syncasyncwork, {Thread.CurrentThread.ManagedThreadId}");
 
-            var syncasyncworker = new SyncAsyncWork();
-            syncasyncworker.DoSyncWork();
-            var rezult = syncasyncworker.DoAsyncWork();
+            //var syncasyncworker = new SyncAsyncWork();
+            //syncasyncworker.DoSyncWork();
+            //var rezult = syncasyncworker.DoAsyncWork();
 
-            while (!syncasyncworker.IsCompleted)
-            {
-                Console.WriteLine($"Working....., { Thread.CurrentThread.ManagedThreadId}");
-                Thread.Sleep(1000);
-            }
+            //while (!syncasyncworker.IsCompleted)
+            //{
+            //    Console.WriteLine($"Working....., { Thread.CurrentThread.ManagedThreadId}");
+            //    Thread.Sleep(1000);
+            //}
 
-            Console.WriteLine(rezult.Result);
+            //Console.WriteLine(rezult.Result);
 
-            Console.WriteLine($"EXIT, {Thread.CurrentThread.ManagedThreadId}");
+            //Console.WriteLine($"EXIT, {Thread.CurrentThread.ManagedThreadId}");
 
             //---------------------------------------------------------
 
