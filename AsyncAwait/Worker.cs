@@ -9,9 +9,9 @@ namespace AsyncAwait
     {
         public bool IsComplete { get; private set; }
 
-        public async void DoWork()
+        public async Task DoWork()
         {
-            this.IsComplete = false;
+            IsComplete = false;
             Console.WriteLine($"Doing work, {Thread.CurrentThread.ManagedThreadId}");
 
             await LongOperation();

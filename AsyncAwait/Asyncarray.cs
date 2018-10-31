@@ -33,7 +33,7 @@ namespace AsyncAwait
                     sum += arr[k];
                 }
                 Console.WriteLine("t2 associate thread is: {0}", Thread.CurrentThread.ManagedThreadId);
-                Thread.Sleep(10000);
+                Thread.Sleep(5000);
                 return sum;
             });
 
@@ -45,7 +45,7 @@ namespace AsyncAwait
                     sum += arr[k];
                 }
                 Console.WriteLine("t2 associate thread is: {0}", Thread.CurrentThread.ManagedThreadId);
-                Thread.Sleep(5000);
+                Thread.Sleep(3000);
                 return sum;
             });
 

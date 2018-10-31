@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Threading;
+using System.Threading.Tasks;
 
 namespace AsyncAwait
 {
@@ -9,29 +10,29 @@ namespace AsyncAwait
         {
             //---------------*********USE PROCESSING IN BKG THREAD********-----------------
 
-            Console.WriteLine($"Starting worker, {Thread.CurrentThread.ManagedThreadId}");
+            //Console.WriteLine($"Starting worker, {Thread.CurrentThread.ManagedThreadId}");
 
-            var worker = new Worker();
-            worker.DoWork();
+            //var worker = new Worker();
+            //worker.DoWork().GetAwaiter().GetResult();
+            //Console.WriteLine("Do work completed.");
+            //while (!worker.IsComplete)
+            //{
+            //    Console.Write($".");
+            //    Thread.Sleep(1000);
+            //}
 
-            while (!worker.IsComplete)
-            {
-                Console.Write($".");
-                Thread.Sleep(1000);
-            }
-
-            Console.WriteLine($"Done, {Thread.CurrentThread.ManagedThreadId}");
-            Thread.Sleep(2000);
+            //Console.WriteLine($"Done, {Thread.CurrentThread.ManagedThreadId}");
+            //Thread.Sleep(2000);
 
             //---------------*********WAIT ALL/////ONE-BY-ONE THREADS********----------------------------
 
-            //var asyncarray = new Asyncarray();
+            var asyncarray = new Asyncarray();
 
-            //int[] myarr = { 1, 2, 3, 4, 5, 6, 9, 10, 8 };
-            //Console.WriteLine("Sum of array elements is:{0}", asyncarray.SumCalculation(myarr));
-            //Console.WriteLine($"Done, {Thread.CurrentThread.ManagedThreadId}");
+            int[] myarr = { 1, 2, 3, 4, 5, 6, 9, 10, 8 };
+            Console.WriteLine("Sum of array elements is:{0}", asyncarray.SumCalculation(myarr));
+            Console.WriteLine($"Done, {Thread.CurrentThread.ManagedThreadId}");
 
-            //Thread.Sleep(2000);
+            Thread.Sleep(2000);
 
             //-------------********WAIT ONE-BY-ONE REFACTORED*********---------------------
 
