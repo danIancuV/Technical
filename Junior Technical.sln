@@ -25,6 +25,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncAwait", "AsyncAwait\As
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SatelliteAssemblies", "SatelliteAssemblies\SatelliteAssemblies.csproj", "{E98F0463-155F-498B-8B61-5FA39E0DB30D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RefParam", "refparam\RefParam.csproj", "{F32352D2-CD7B-4768-9AED-B91ED95AFE3A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MutablevsImmutable", "MutablevsImmutable\MutablevsImmutable.csproj", "{2004BCE3-02BF-42EE-94A0-FC1B5E8FF755}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +79,14 @@ Global
 		{E98F0463-155F-498B-8B61-5FA39E0DB30D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E98F0463-155F-498B-8B61-5FA39E0DB30D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E98F0463-155F-498B-8B61-5FA39E0DB30D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F32352D2-CD7B-4768-9AED-B91ED95AFE3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F32352D2-CD7B-4768-9AED-B91ED95AFE3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F32352D2-CD7B-4768-9AED-B91ED95AFE3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F32352D2-CD7B-4768-9AED-B91ED95AFE3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2004BCE3-02BF-42EE-94A0-FC1B5E8FF755}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2004BCE3-02BF-42EE-94A0-FC1B5E8FF755}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2004BCE3-02BF-42EE-94A0-FC1B5E8FF755}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2004BCE3-02BF-42EE-94A0-FC1B5E8FF755}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

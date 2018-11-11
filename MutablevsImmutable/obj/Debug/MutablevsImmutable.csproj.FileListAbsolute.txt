@@ -1,0 +1,7 @@
+D:\App\Junior Technical\MutablevsImmutable\bin\Debug\MutablevsImmutable.exe.config
+D:\App\Junior Technical\MutablevsImmutable\bin\Debug\MutablevsImmutable.exe
+D:\App\Junior Technical\MutablevsImmutable\bin\Debug\MutablevsImmutable.pdb
+D:\App\Junior Technical\MutablevsImmutable\obj\Debug\MutablevsImmutable.csprojAssemblyReference.cache
+D:\App\Junior Technical\MutablevsImmutable\obj\Debug\MutablevsImmutable.csproj.CoreCompileInputs.cache
+D:\App\Junior Technical\MutablevsImmutable\obj\Debug\MutablevsImmutable.exe
+D:\App\Junior Technical\MutablevsImmutable\obj\Debug\MutablevsImmutable.pdb

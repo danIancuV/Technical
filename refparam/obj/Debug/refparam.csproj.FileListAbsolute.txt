@@ -1,0 +1,7 @@
+D:\App\Junior Technical\refparam\bin\Debug\refparam.exe.config
+D:\App\Junior Technical\refparam\bin\Debug\refparam.exe
+D:\App\Junior Technical\refparam\bin\Debug\refparam.pdb
+D:\App\Junior Technical\refparam\obj\Debug\refparam.csprojAssemblyReference.cache
+D:\App\Junior Technical\refparam\obj\Debug\refparam.csproj.CoreCompileInputs.cache
+D:\App\Junior Technical\refparam\obj\Debug\refparam.exe
+D:\App\Junior Technical\refparam\obj\Debug\refparam.pdb
