@@ -1,0 +1,6 @@
+D:\App\Junior Technical\StrategyPattern\bin\Debug\StrategyPattern.exe.config
+D:\App\Junior Technical\StrategyPattern\bin\Debug\StrategyPattern.exe
+D:\App\Junior Technical\StrategyPattern\bin\Debug\StrategyPattern.pdb
+D:\App\Junior Technical\StrategyPattern\obj\Debug\StrategyPattern.csproj.CoreCompileInputs.cache
+D:\App\Junior Technical\StrategyPattern\obj\Debug\StrategyPattern.exe
+D:\App\Junior Technical\StrategyPattern\obj\Debug\StrategyPattern.pdb

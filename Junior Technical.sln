@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RefParam", "refparam\RefPar
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MutablevsImmutable", "MutablevsImmutable\MutablevsImmutable.csproj", "{2004BCE3-02BF-42EE-94A0-FC1B5E8FF755}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StrategyPattern", "StrategyPattern\StrategyPattern.csproj", "{9D3CA0DD-617D-4002-8588-12115B04E3A4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{2004BCE3-02BF-42EE-94A0-FC1B5E8FF755}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2004BCE3-02BF-42EE-94A0-FC1B5E8FF755}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2004BCE3-02BF-42EE-94A0-FC1B5E8FF755}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D3CA0DD-617D-4002-8588-12115B04E3A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D3CA0DD-617D-4002-8588-12115B04E3A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D3CA0DD-617D-4002-8588-12115B04E3A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D3CA0DD-617D-4002-8588-12115B04E3A4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
